@@ -144,9 +144,11 @@ input {
     border-radius: 50%;
     height: 70px;
     width: 70px;
+    transition: transform 0.2s;
 }
 
 .recent-posts>div>img:hover {
+    transform: rotate(20deg);
     cursor: pointer;
 }
 
@@ -275,6 +277,14 @@ hr {
     color: #ca9b5f;
 }
 
+.card>a:hover {
+    color: #ca9b5f;
+}
+
+.card>img:hover {
+    cursor: pointer;
+}
+
 .admin,
 .date {
     text-decoration: none;
@@ -308,5 +318,3 @@ hr {
         gap: 10%;
     }
 }
-
-
